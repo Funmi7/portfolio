@@ -4,10 +4,19 @@ import styled from "styled-components";
 
 const NavStyled = styled.div`
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color:  #0b0a1d;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-right: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
 
   .logoDiv {
   }
