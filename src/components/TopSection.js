@@ -10,6 +10,9 @@ const TopStyled = styled.div`
   height: 100vh;
   text-align: left;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
 
   .left-section {
     h1 {
@@ -50,7 +53,7 @@ const TopStyled = styled.div`
 
     .textDiv {
       margin-top: 5rem;
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
       margin-left: 3rem;
       margin-right: 3rem;
     }
