@@ -65,7 +65,8 @@ const AboutMeStyled = styled.div`
     p {
       width: 50%;
       text-align: left;
-      font-size: 2rem;
+      font-size: 1.8rem;
+      color: #a0aec0
     }
   }
 `;
