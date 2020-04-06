@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import githubIcon from "../img/githubIcon.svg";
-import linkedInIcon from "../img/linkedInIcon.svg";
-import twitterIcon from "../img/twitterIcon.svg";
 
 const TopStyled = styled.div`
   display: flex;
@@ -41,12 +38,14 @@ const TopStyled = styled.div`
       max-width: 3rem;
       height: 3rem;
       margin-right: 2rem;
+      
     }
     svg {
       width: 3rem;
       height: 3rem;
       fill: #38b2ac;
       margin-right: 2rem;
+      cursor: pointer;
 
       :hover {
         fill: #a0aec0;
@@ -57,7 +56,7 @@ const TopStyled = styled.div`
   .right-section {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
     border-radius: 1rem;
-    background: #a0aec0;
+    background: #2d3748;
     width: 35%;
     height: 37vh;
 
@@ -70,10 +69,10 @@ const TopStyled = styled.div`
     pre,
     b,
     span {
-      color: #080a16;
+      color: white;
       padding-bottom: 1rem;
       font-size: 1.6rem;
-      background: #a0aec0;
+      background: #2d3748;
     }
   }
 `;
