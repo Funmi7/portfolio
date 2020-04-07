@@ -114,21 +114,21 @@ const TopSection = () => {
       <div className="right-section">
         <div className="textDiv">
           <pre>
-            1 class
+            1   class
             <b> Person </b>
             <span>{"{"}</span>
           </pre>
           <pre>
-            2 constructor()
+            2       constructor()
             <span>{" {"}</span>
           </pre>
-          <pre>4 this.name = "Talabi Olufunmilayo";</pre>
-          <pre>5 this.traits = ["frontendDev", "backendDev"];</pre>
+          <pre>4          this.name = "Talabi Olufunmilayo";</pre>
+          <pre>5          this.traits = ["frontendDev", "backendDev"];</pre>
           <pre>
-            6 <span>{"}"}</span>
+            6       <span>{"}"}</span>
           </pre>
           <pre>
-            7 <span>{"}"}</span>
+            7   <span>{"}"}</span>
           </pre>
         </div>
       </div>

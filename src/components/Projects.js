@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import devCoach from "../img/dev-coach.png";
 import rickMorty from "../img/rickandmorty.PNG";
+import vacationPlanner from "../img/vacation-planner.PNG";
 
 const ProjectStyled = styled.div`
   height: 100vh;
@@ -204,7 +205,8 @@ const Projects = () => {
           <h3>Vacation Planner</h3>
           <div className="descriptionDiv">
             <p>
-              Vacation Planner is a static multipage landing page which shows 
+              A site for making vacation planning with friends and family much
+              easier. This is a static marketing landing page.
             </p>
           </div>
           <div className="techDiv techDiv2">
@@ -233,7 +235,7 @@ const Projects = () => {
           </svg>
         </div>
         <div className="imgDiv">
-          <img src={rickMorty} />
+          <img src={vacationPlanner} />
         </div>
       </div>
     </ProjectStyled>
