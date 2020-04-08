@@ -6,6 +6,7 @@ import vacationPlanner from "../img/vacation-planner.PNG";
 
 const ProjectStyled = styled.div`
   height: 100vh;
+  
   h1 {
     margin-bottom: 15vh;
     font-weight: 900;
