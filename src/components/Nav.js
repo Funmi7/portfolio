@@ -19,19 +19,28 @@ const NavStyled = styled.div`
   overflow: hidden;
 
   .logoDiv {
+    background: #0b0a1d;
   }
 
   .linkDiv {
     display: flex;
+    background: #0b0a1d;
+
+    .divStyle {
+      background: #0b0a1d;
+    }
 
     .navLink {
       margin-left: 5rem;
+      background: #0b0a1d;
+      
     }
   }
 
   .linkStyle {
     color: white;
     text-decoration: none;
+    background: #0b0a1d;
   }
  
 `;
@@ -39,13 +48,13 @@ const NavStyled = styled.div`
 function Navigation() {
   return (
     <NavStyled>
-      <div>
+      <div className='divStyle'>
         <Link className="linkStyle" to="/">
           FT
         </Link>
       </div>
       <div className='linkDiv'>
-        <div>
+        <div className= 'divStyle'>
           <Link className="linkStyle" to="/">
             About
           </Link>

@@ -31,17 +31,18 @@ const ContactStyled = styled.div`
     font-size: 2rem;
   }
   button {
-    margin-top: 3rem;
+    margin-top: 5rem;
     color: white;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom:1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     border-radius: 5px;
     border-style: none;
     cursor: pointer;
     background: #38b2ac;
     margin-bottom: 3rem;
+    font-size: 1.8rem;
   }
 `;
 

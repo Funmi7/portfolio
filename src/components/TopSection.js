@@ -32,6 +32,10 @@ const TopStyled = styled.div`
       cursor: pointer;
       background: #38b2ac;
       margin-bottom: 3rem;
+
+      :hover {
+        background: #a0aec0;
+      }
     }
 
     img {
