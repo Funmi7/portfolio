@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const ContactStyled = styled.div`
   margin-top: 150vh;
-  height: 100vh;
+  height: 70vh;
   position: relative;
 
   h1 {
@@ -31,7 +31,7 @@ const ContactStyled = styled.div`
     font-size: 2rem;
   }
   button {
-    margin-top: 5rem;
+    margin-top: 8rem;
     color: white;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -43,6 +43,10 @@ const ContactStyled = styled.div`
     background: #38b2ac;
     margin-bottom: 3rem;
     font-size: 1.8rem;
+
+    :hover {
+        background: #a0aec0;
+      }
   }
 `;
 
