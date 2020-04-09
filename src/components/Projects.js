@@ -6,7 +6,6 @@ import vacationPlanner from "../img/vacation-planner.PNG";
 
 const ProjectStyled = styled.div`
   height: 100vh;
-  
   h1 {
     margin-bottom: 15vh;
     font-weight: 900;
@@ -39,6 +38,7 @@ const ProjectStyled = styled.div`
         max-width: 100%;
         border-radius: 0.5rem;
         box-shadow: -2px 0px 2px 1px #ffffff;
+        height: auto;
       }
     }
 
