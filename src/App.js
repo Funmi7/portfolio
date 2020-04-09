@@ -1,9 +1,25 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navigation from "./components/Nav";
+import TopSection from "./components/TopSection";
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Navigation />
+      <div className="App">
+        <TopSection />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <ContactMe />
+      </div>
+      <Footer />
     </div>
   );
 }
