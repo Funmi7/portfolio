@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+
 const TopStyled = styled.div`
   display: flex;
   padding-top: 22rem;
@@ -88,7 +89,7 @@ const TopSection = () => {
         <h4>Hello, I'm</h4>
         <h1>Talabi Olufunmilayo</h1>
         <h3>A creative and Passionate Full Stack Web Developer</h3>
-        <button>Download Resume</button>
+         <a href='https://drive.google.com/file/d/1XWyFV_0I6koH-QgsMuD2-kJJoClViyji/view?usp=sharing' target="_blank"><button>Download Resume</button></a>
         <div>
           <svg viewBox="0 0 128 128">
             <path

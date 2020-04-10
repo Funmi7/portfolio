@@ -10,7 +10,7 @@ import gitIcon from "../img/gitIcon.svg";
 
 const SkillStyled = styled.div`
   height: 100vh;
-  margin-top: 15rem;
+  padding-top: 15rem;
 
   h1 {
     margin-bottom: 15vh;
@@ -46,7 +46,7 @@ const SkillStyled = styled.div`
 
 const Skills = () => {
   return (
-    <SkillStyled>
+    <SkillStyled id="skills">
       <h1>
         <div className="lineStyle"></div>
         My Skillsets

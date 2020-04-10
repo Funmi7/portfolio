@@ -7,6 +7,7 @@ import crpytoTracker from '../img/crypto.PNG';
 
 const ProjectStyled = styled.div`
   height: 100vh;
+  padding-top: 15rem;
   h1 {
     margin-bottom: 15vh;
     font-weight: 900;
@@ -112,7 +113,7 @@ const ProjectStyled = styled.div`
 
 const Projects = () => {
   return (
-    <ProjectStyled>
+    <ProjectStyled id="projects">
       <h1>
         <div className="lineStyle"></div>
         Projects I've Built

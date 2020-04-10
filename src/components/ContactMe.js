@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 const ContactStyled = styled.div`
   margin-top: 220vh;
-  height: 70vh;
+  height: 90vh;
+  padding-top: 15rem;
   position: relative;
 
   h1 {
@@ -52,7 +53,7 @@ const ContactStyled = styled.div`
 
 const ContactMe = () => {
   return (
-    <ContactStyled>
+    <ContactStyled id="contact-me">
       <h1>
         <div className="lineStyle"></div>
         Get In Touch

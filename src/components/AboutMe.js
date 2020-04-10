@@ -3,6 +3,8 @@ import styled from "styled-components";
 import profileImg from "../img/funmi.jpg";
 
 const AboutMeStyled = styled.div`
+  padding-top: 15rem;
+  height: 100vh;
   h1 {
     margin-bottom: 15vh;
     font-weight: 900;
@@ -18,17 +20,6 @@ const AboutMeStyled = styled.div`
       margin-right: 2rem;
       width: 20%;
     }
-  }
-
-  .skewedDiv {
-    position: absolute;
-    left: 0px;
-    background: #0b0a1d;
-    min-height: 500px;
-    width: 100%;
-    transform: skewY(-3deg);
-    pointer-events: none;
-    z-index: -1;
   }
 
   .aboutMeContainer {
@@ -73,7 +64,7 @@ const AboutMeStyled = styled.div`
 
 const AboutMe = () => {
   return (
-    <AboutMeStyled>
+    <AboutMeStyled id="about-me">
       <h1>
         <div className="lineStyle"></div>
         About Me
@@ -92,7 +83,8 @@ const AboutMe = () => {
           <br></br>
           Through my experience at Lambda School, I've acquired the skills and
           knowledge of modern web technologies needed to build website that
-          looks good, feels fantastic and functions optimally with efficient and modern backend.
+          looks good, feels fantastic and functions optimally with efficient and
+          modern backend.
         </p>
       </div>
     </AboutMeStyled>

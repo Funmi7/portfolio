@@ -11,12 +11,14 @@ const FooterStyled = styled.div`
   height: 60px;
   padding-left: 10%;
   padding-bottom: 5rem;
+  
 
   p {
     background-color: #0b0a1d;
     color: #38b2ac;
     text-align: center;
     cursor: pointer;
+    padding-left: 7%;
 
     :hover {
       color: white;
