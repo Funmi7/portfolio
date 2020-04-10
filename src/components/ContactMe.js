@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ContactStyled = styled.div`
-  margin-top: 150vh;
+  margin-top: 220vh;
   height: 70vh;
   position: relative;
 
