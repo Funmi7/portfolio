@@ -29,27 +29,28 @@ const AboutMeStyled = styled.div`
     align-items: center;
 
     .imgDiv {
-      width: 30rem;
-      height: 30rem;
-      border-radius: 50%;
+      width: 30%;
+      height: 38rem;
+      border-radius: 1rem;
       border-width: 5px;
-      border-style: solid;
-      border-color: rgb(248, 248, 248);
+      /* border-style: solid; */
+      /* border-color: rgb(248, 248, 248); */
+      box-shadow: 8px 7px 6px -4px #0b0a1d;
       border-image: initial;
       overflow: hidden;
       margin: 0px;
 
-      .imgWrapper {
+      /* .imgWrapper {
         position: relative;
         overflow: hidden;
         width: 100%;
         padding-bottom: 100%;
-      }
+      } */
       img {
         max-width: 100%;
         max-height: 100%;
-        object-fit: cover;
-        object-position: center center;
+        /* object-fit: cover; */
+        /* object-position: center center; */
         transition-delay: 500ms;
       }
     }
@@ -82,9 +83,13 @@ const AboutMe = () => {
           <br></br>
           <br></br>
           Through my experience at Lambda School, I've acquired the skills and
-          knowledge of modern web technologies needed to build website that
-          looks good, feels fantastic and functions optimally with efficient and
-          modern backend.
+          knowledge of modern web technologies needed for developing websites
+          that looks good, feels fantastic and functions optimally with
+          efficient and modern backend.
+          <br></br>
+          <br></br>
+          When I'm not programming, I'm most likely reading a novel, seeing a
+          movie, sight seeing or hanging out with friends and family
         </p>
       </div>
     </AboutMeStyled>
