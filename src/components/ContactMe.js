@@ -46,8 +46,8 @@ const ContactStyled = styled.div`
     font-size: 1.8rem;
 
     :hover {
-        background: #a0aec0;
-      }
+      background: #a0aec0;
+    }
   }
 `;
 
@@ -66,7 +66,9 @@ const ContactMe = () => {
           message and I will respond to it ASAP.
         </p>
       </div>
-      <button>Connect With Me</button>
+      <a href="mailto:talabifunmilayo@gmail.com">
+        <button>Connect With Me</button>
+      </a>
     </ContactStyled>
   );
 };

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import profileImg from "../img/funmi.jpg";
 
 const AboutMeStyled = styled.div`
-  padding-top: 15rem;
+  padding-top: 10rem;
   height: 100vh;
   h1 {
     margin-bottom: 15vh;
