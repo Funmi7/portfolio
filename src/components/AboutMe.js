@@ -2,9 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import profileImg from "../img/funmi.jpg";
 
+
 const AboutMeStyled = styled.div`
   padding-top: 10rem;
   height: 100vh;
+  transform: translateX(0);
+  transition: transform 1s linear;
+  transition-timing-function: cubic-bezier(.18,.89,.32,1.28);
   h1 {
     margin-bottom: 15vh;
     font-weight: 900;

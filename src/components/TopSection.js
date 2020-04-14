@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Typical from "react-typical";
 
 
 const TopStyled = styled.div`
@@ -87,9 +88,18 @@ const TopSection = () => {
     <TopStyled>
       <div className="left-section">
         <h4>Hello, I'm</h4>
-        <h1>Talabi Olufunmilayo</h1>
-        <h3>A creative and Passionate Full Stack Web Developer</h3>
-         <a href='https://drive.google.com/file/d/1XWyFV_0I6koH-QgsMuD2-kJJoClViyji/view?usp=sharing' target="_blank"><button>Download Resume</button></a>
+       <h1>Talabi Olufunmilayo</h1>
+        <Typical
+        loop={1}
+        wrapper='h3'
+        steps = {[
+          'A creative Full Stack Web Developer', 1000,
+          'A passionate Full Stack Web Developer', 1000,
+          'A creative and passionate Full Stack Web Developer', 1000
+        ]}
+        />
+        {/* <h3>A creative and Passionate Full Stack Web Developer</h3> */}
+        <a href='https://drive.google.com/file/d/1XWyFV_0I6koH-QgsMuD2-kJJoClViyji/view?usp=sharing' target="_blank"><button>Download Resume</button></a>
         <div>
           <a href='https://github.com/Funmi7' target="_blank">
           <svg viewBox="0 0 128 128">
