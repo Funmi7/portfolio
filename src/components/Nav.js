@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const NavStyled = styled.div`
@@ -7,7 +6,7 @@ const NavStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:  #0b0a1d;
+  background-color: #0b0a1d;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-right: 8rem;
@@ -34,7 +33,6 @@ const NavStyled = styled.div`
     .navLink {
       margin-left: 5rem;
       background: #0b0a1d;
-      
     }
   }
 
@@ -43,32 +41,36 @@ const NavStyled = styled.div`
     text-decoration: none;
     background: #0b0a1d;
   }
- 
 `;
 
 function Navigation() {
   return (
     <NavStyled>
-      <div className='divStyle'>
-        <Link className="linkStyle" to="/">
+      <div className="divStyle">
+        <a href="#" className="linkStyle">
           FT
-        </Link>
+        </a>
       </div>
-      <div className='linkDiv'>
-        <div className= 'divStyle'>
-          <Link className="linkStyle" to="/">
+      <div className="linkDiv">
+        <div className="divStyle">
+          <a href="#about-me" className="linkStyle">
             About
-          </Link>
+          </a>
         </div>
-        <div className='navLink'> 
-          <Link className="linkStyle" to="/">
+        <div className="navLink">
+          <a href="#skills" className="linkStyle">
+            Skills
+          </a>
+        </div>
+        <div className="navLink">
+          <a href="#projects" className="linkStyle">
             Projects
-          </Link>
+          </a>
         </div>
-        <div className='navLink'>
-          <Link className="linkStyle" to="/">
+        <div className="navLink">
+          <a href="#contact-me" className="linkStyle" to="/">
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </NavStyled>

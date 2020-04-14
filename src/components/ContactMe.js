@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const ContactStyled = styled.div`
-  margin-top: 150vh;
-  height: 70vh;
+  margin-top: 220vh;
+  height: 90vh;
+  padding-top: 15rem;
   position: relative;
 
   h1 {
@@ -45,14 +46,14 @@ const ContactStyled = styled.div`
     font-size: 1.8rem;
 
     :hover {
-        background: #a0aec0;
-      }
+      background: #a0aec0;
+    }
   }
 `;
 
 const ContactMe = () => {
   return (
-    <ContactStyled>
+    <ContactStyled id="contact-me">
       <h1>
         <div className="lineStyle"></div>
         Get In Touch
@@ -65,7 +66,9 @@ const ContactMe = () => {
           message and I will respond to it ASAP.
         </p>
       </div>
-      <button>Connect With Me</button>
+      <a href="mailto:talabifunmilayo@gmail.com">
+        <button>Connect With Me</button>
+      </a>
     </ContactStyled>
   );
 };
