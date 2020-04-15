@@ -14,6 +14,13 @@ const TopStyled = styled.div`
   max-width: 1200px;
   width: 100%;
 
+  @media ${devices.large} {
+    flex-direction: column;
+    align-items: center;
+    justify-content: none;
+    height: auto;
+  }
+
   @media ${devices.tablet} {
     flex-direction: column;
     padding-top: 10rem;
@@ -89,6 +96,12 @@ const TopStyled = styled.div`
     background: #2d3748;
     width: 35%;
     height: 37vh;
+
+    @media ${devices.large} {
+      width: 90%;
+      height: auto;
+      margin-top: 5rem;
+    }
 
     @media ${devices.tablet} {
       width: 90%;

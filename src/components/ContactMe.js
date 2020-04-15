@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import devices from "../utils/devices";
 
 const ContactStyled = styled.div`
   margin-top: 220vh;
@@ -7,12 +8,27 @@ const ContactStyled = styled.div`
   padding-top: 15rem;
   position: relative;
 
+  @media ${devices.large} {
+    margin-top: 0rem;
+    padding-top: 3rem;
+    position: static;
+    height: auto;
+  }
+  @media ${devices.tablet} {
+    position: static;
+  }
+
   h1 {
     margin-bottom: 15vh;
     font-weight: 900;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media ${devices.mobile} {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
 
     .lineStyle {
       background-color: rgb(45, 57, 82);
@@ -30,6 +46,12 @@ const ContactStyled = styled.div`
     margin-left: 25%;
     color: #a0aec0;
     font-size: 2rem;
+
+    @media ${devices.mobile} {
+      width: 100%;
+      margin-left: 0%;
+      padding: 1rem;
+    }
   }
   button {
     margin-top: 8rem;

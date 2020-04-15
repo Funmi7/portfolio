@@ -21,8 +21,8 @@ const NavStyled = styled.div`
 
   @media ${devices.mobile} {
     position: static;
-    padding-right: none;
-    padding-left: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
     justify-content: none;
     z-index: none;
     margin: none;
