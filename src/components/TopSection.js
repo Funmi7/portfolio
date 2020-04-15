@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Typical from "react-typical";
+import devices from "../utils/devices";
 
 
 const TopStyled = styled.div`
@@ -13,17 +14,40 @@ const TopStyled = styled.div`
   max-width: 1200px;
   width: 100%;
 
+  @media ${devices.tablet} {
+    flex-direction: column;
+    padding-top: 10rem;
+    align-items: center;
+    justify-content: none;
+    height: auto;
+  }
+
+  @media ${devices.mobile} {
+    padding-top: 5rem;
+  }
   .left-section {
     h1 {
       font-weight: 900;
       font-size: 5rem;
+
+      @media ${devices.mobile} {
+        font-weight: 700;
+        font-size: 3rem;
+      }
     }
 
     h3 {
       color: #a0aec0;
+
+      @media ${devices.mobile} {
+        font-size: 1.5rem;
+      }
     }
     h4 {
       color: #38b2ac;
+      @media ${devices.mobile} {
+        font-size: 1.2rem;
+      }
     }
     button {
       margin-top: 3rem;
@@ -66,11 +90,24 @@ const TopStyled = styled.div`
     width: 35%;
     height: 37vh;
 
+    @media ${devices.tablet} {
+      width: 90%;
+      height: auto;
+      margin-top: 5rem;
+    }
+
     .textDiv {
       margin-top: 5rem;
       margin-bottom: 3rem;
       margin-left: 3rem;
       margin-right: 3rem;
+
+      @media ${devices.mobile} {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
+        margin-right: none;
+      }
     }
     pre,
     b,
@@ -79,6 +116,10 @@ const TopStyled = styled.div`
       padding-bottom: 1rem;
       font-size: 1.6rem;
       background: #2d3748;
+
+      @media ${devices.mobile} {
+        font-size: 1.4rem;
+      }
     }
   }
 `;

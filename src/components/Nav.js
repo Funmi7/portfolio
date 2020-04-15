@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import devices from "../utils/devices";
 
 const NavStyled = styled.div`
   padding-left: 5%;
@@ -18,6 +19,16 @@ const NavStyled = styled.div`
   z-index: 1000;
   overflow: hidden;
 
+  @media ${devices.mobile} {
+    position: static;
+    padding-right: none;
+    padding-left: none;
+    justify-content: none;
+    z-index: none;
+    margin: none;
+    width: 100%;
+  }
+
   .logoDiv {
     background: #0b0a1d;
   }
@@ -33,6 +44,16 @@ const NavStyled = styled.div`
     .navLink {
       margin-left: 5rem;
       background: #0b0a1d;
+
+      @media ${devices.mobile} {
+        margin-right: 1rem;
+      }
+    }
+
+    .mobile {
+      @media ${devices.mobile} {
+        display: none;
+      }
     }
   }
 
@@ -52,17 +73,17 @@ function Navigation() {
         </a>
       </div>
       <div className="linkDiv">
-        <div className="divStyle">
+        <div className="divStyle mobile">
           <a href="#about-me" className="linkStyle">
             About
           </a>
         </div>
-        <div className="navLink">
+        <div className="navLink mobile">
           <a href="#skills" className="linkStyle">
             Skills
           </a>
         </div>
-        <div className="navLink">
+        <div className="navLink mobile">
           <a href="#projects" className="linkStyle">
             Projects
           </a>
