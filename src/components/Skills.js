@@ -7,10 +7,20 @@ import nodeIcon from "../img/nodejsIcon.svg";
 import pythonIcon from "../img/pythonIcon.svg";
 import reactIcon from "../img/reactIcon.svg";
 import gitIcon from "../img/gitIcon.svg";
+import devices from "../utils/devices";
 
 const SkillStyled = styled.div`
   height: 100vh;
   padding-top: 15rem;
+
+  @media ${devices.large} {
+    padding-top: 8rem;
+    height: 50vh;
+  }
+
+  @media ${devices.mobile} {
+    height: auto;
+  }
 
   h1 {
     margin-bottom: 15vh;
@@ -18,6 +28,11 @@ const SkillStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media ${devices.mobile} {
+      margin-bottom: 5vh;
+      font-size: 2rem;
+    }
 
     .lineStyle {
       background-color: rgb(45, 57, 82);
@@ -40,6 +55,11 @@ const SkillStyled = styled.div`
     img {
       width: 10rem;
       height: 10rem;
+
+      @media ${devices.mobile} {
+        width: 5rem;
+        height: 5rem;
+      }
     }
   }
 `;

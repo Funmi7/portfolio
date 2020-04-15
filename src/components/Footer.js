@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import devices from "../utils/devices";
 
 const FooterStyled = styled.div`
   max-width: 100%;
@@ -11,6 +12,15 @@ const FooterStyled = styled.div`
   height: 60px;
   padding-left: 10%;
   padding-bottom: 5rem;
+
+  @media ${devices.tablet} {
+    margin-top: 10rem;
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
 
   a {
     text-decoration: none;
@@ -25,6 +35,10 @@ const FooterStyled = styled.div`
 
     :hover {
       color: white;
+    }
+
+    @media ${devices.mobile} {
+      padding-left: 0%;
     }
   }
 
