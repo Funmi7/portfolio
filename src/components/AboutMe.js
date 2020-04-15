@@ -105,18 +105,18 @@ const AboutMe = () => {
           </div>
         </div>
         <p>
-          Hi I'm Funmi, a passionate and dedicated Software Engineer from
+          Hi! I am Funmi, a passionate and dedicated Software Engineer from
           Nigeria who enjoys building web applications.
           <br></br>
           <br></br>
           Through my experience at Lambda School, I've acquired the skills and
           knowledge of modern web technologies needed for developing websites
-          that looks good, feels fantastic and functions optimally with
+          that look good, feel fantastic and function optimally with
           efficient and modern backend.
           <br></br>
           <br></br>
-          When I'm not programming, I'm most likely reading a novel, seeing a
-          movie, sight seeing or hanging out with friends and family
+          When I am not programming, I am most likely reading a novel, listening to pop music, seeing a
+          movie, sight seeing or hanging out with friends and family.
         </p>
       </div>
     </AboutMeStyled>
