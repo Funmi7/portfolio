@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import devices from "../utils/devices";
+import myLogo from "../img/my-logo.png";
 
 const NavStyled = styled.div`
   padding-left: 5%;
@@ -31,6 +32,15 @@ const NavStyled = styled.div`
 
   .logoDiv {
     background: #0b0a1d;
+    width: 13rem;
+    height: 13rem;
+    margin-top:3.5rem;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      background: #0b0a1d
+    }
   }
 
   .linkDiv {
@@ -67,9 +77,9 @@ const NavStyled = styled.div`
 function Navigation() {
   return (
     <NavStyled>
-      <div className="divStyle">
+      <div className="logoDiv">
         <a href="#" className="linkStyle">
-          FT
+          <img src={myLogo} />
         </a>
       </div>
       <div className="linkDiv">
