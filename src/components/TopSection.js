@@ -153,7 +153,7 @@ const TopSection = () => {
         ]}
         />
         {/* <h3>A creative and Passionate Full Stack Web Developer</h3> */}
-        <a href='https://drive.google.com/file/d/1XWyFV_0I6koH-QgsMuD2-kJJoClViyji/view?usp=sharing' target="_blank"><button>Download Resume</button></a>
+        <a href='https://drive.google.com/file/d/15-XnzM5OGHVyvwgimGUn3F3DTjCjZduY/view?usp=sharing' target="_blank"><button>Download Resume</button></a>
         <div>
           <a href='https://github.com/Funmi7' target="_blank">
           <svg viewBox="0 0 128 128">
