@@ -147,11 +147,6 @@ const TopStyled = styled.div`
 `;
 
 const TopSection = () => {
-  // const handleKeyDown = (e) => {
-  //   if (e.key === 'Enter') {
-  //     console.log('do validate')
-  //   }
-  // }
   return (
     <TopStyled>
       <div className="left-section">

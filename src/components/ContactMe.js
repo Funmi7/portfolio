@@ -3,7 +3,7 @@ import styled from "styled-components";
 import devices from "../utils/devices";
 
 const ContactStyled = styled.div`
-  margin-top: 220vh;
+  margin-top: 300vh;
   height: 90vh;
   padding-top: 15rem;
   position: relative;
