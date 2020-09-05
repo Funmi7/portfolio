@@ -88,7 +88,7 @@ const Skills = () => {
       </div>
       <div className="secondSet">
         <div className="iconDiv">
-          <img src={nodeIcon} />
+          <img src={nodeIcon} alt='node icon' />
         </div>
         <div className="iconDiv">
           <img src={pythonIcon} />
