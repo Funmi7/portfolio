@@ -210,13 +210,18 @@ const Projects = () => {
       <div className="projectContainer">
         <div className="textDiv">
           <h4>Featured Project</h4>
-          <a href="https://pictures-eta.vercel.app" target="_blank">
+          <a
+            href="https://pictures-eta.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>PictureGallery</h3>
           </a>
           <div className="descriptionDiv">
             <p>
-           Picture gallery is a web application that allows you upload random pictures on the web for you and others to see.
-           Users have to sign up/login to use the feature
+              Picture gallery is a web application that allows you upload random
+              pictures on the web for you and others to see. Users have to sign
+              up/login to use the feature
             </p>
           </div>
           <div className="techDiv">
@@ -227,7 +232,11 @@ const Projects = () => {
             <h4>mongoDb</h4>
             <h4>Styled Components</h4>
           </div>
-          <a href="https://pictures-eta.vercel.app" target="_blank">
+          <a
+            href="https://pictures-eta.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               id="Capa_1"
               enable-background="new 0 0 515.556 515.556"
@@ -243,6 +252,7 @@ const Projects = () => {
           <a
             href="https://github.com/Funmi7/work-in"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg viewBox="0 0 128 128">
               <path
@@ -259,12 +269,15 @@ const Projects = () => {
         </div>
       </div>
 
-
       {/* second project */}
       <div className="projectContainer">
         <div className="textDiv">
           <h4>Featured Project</h4>
-          <a href="https://www.dev-coach.com/" target="_blank">
+          <a
+            href="https://www.dev-coach.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>DevCoach</h3>
           </a>
           <div className="descriptionDiv">
@@ -286,7 +299,11 @@ const Projects = () => {
             <h4>Ant Design</h4>
             <h4>Styled Components</h4>
           </div>
-          <a href="https://www.dev-coach.com/" target="_blank">
+          <a
+            href="https://www.dev-coach.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               id="Capa_1"
               enable-background="new 0 0 515.556 515.556"
@@ -302,6 +319,7 @@ const Projects = () => {
           <a
             href="https://github.com/LABS-EU3/quality_hub_frontend/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg viewBox="0 0 128 128">
               <path
@@ -321,7 +339,11 @@ const Projects = () => {
       <div className="projectContainer">
         <div className="textDiv">
           <h4>Featured Project</h4>
-          <a href="https://dark-mode-6fsisxspi.now.sh/" target="_blank">
+          <a
+            href="https://dark-mode-6fsisxspi.now.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>Crypto Tracker</h3>
           </a>
           <div className="descriptionDiv">
@@ -335,7 +357,11 @@ const Projects = () => {
             <h4>React</h4>
             <h4>CSS(SCSS)</h4>
           </div>
-          <a href="https://dark-mode-6fsisxspi.now.sh/" target="_blank">
+          <a
+            href="https://dark-mode-6fsisxspi.now.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               id="Capa_1"
               enable-background="new 0 0 515.556 515.556"
@@ -348,7 +374,11 @@ const Projects = () => {
               <path d="m224.303 374.578-59.274 59.274c-11.139 11.124-25.929 17.26-41.662 17.26-32.49 0-58.922-26.432-58.922-58.922 0-15.733 6.136-30.523 17.26-41.662l107.712-107.712c22.279-22.247 61.046-22.263 83.325-.016l45.533-45.596c-46.587-46.54-127.819-46.555-174.422.047l-107.713 107.712c-23.302 23.301-36.14 54.28-36.14 87.226 0 68.032 55.335 123.366 123.366 123.366 32.946 0 63.925-12.839 87.227-36.14l94.792-94.792c-6.921.93-13.806 2.043-20.908 2.043-21.012.001-41.363-4.2-60.174-12.088z" />
             </svg>
           </a>
-          <a href="https://github.com/Funmi7/dark-mode" target="_blank">
+          <a
+            href="https://github.com/Funmi7/dark-mode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg viewBox="0 0 128 128">
               <path
                 fill-rule="evenodd"
@@ -360,19 +390,24 @@ const Projects = () => {
           </a>
         </div>
         <div className="imgDiv">
-          <img alt="crypto tracker"src={crpytoTracker} />
+          <img alt="crypto tracker" src={crpytoTracker} />
         </div>
       </div>
 
       <div className="projectContainer">
         <div className="textDiv">
           <h4>Featured Project</h4>
-          <a href="https://react-todo-delta-six.vercel.app/" target="_blank">
+          <a
+            href="https://react-todo-delta-six.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>Todo-app</h3>
           </a>
           <div className="descriptionDiv">
             <p>
-             Todo-app is a simple web application where you can input to do tasks and mark when completed
+              Todo-app is a simple web application where you can input to do
+              tasks and mark when completed
             </p>
           </div>
           <div className="techDiv techDiv3">
@@ -380,7 +415,11 @@ const Projects = () => {
             <h4>styled components</h4>
             <h4>CSS</h4>
           </div>
-          <a href="https://react-todo-delta-six.vercel.app/" target="_blank">
+          <a
+            href="https://react-todo-delta-six.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               id="Capa_1"
               enable-background="new 0 0 515.556 515.556"
@@ -393,7 +432,11 @@ const Projects = () => {
               <path d="m224.303 374.578-59.274 59.274c-11.139 11.124-25.929 17.26-41.662 17.26-32.49 0-58.922-26.432-58.922-58.922 0-15.733 6.136-30.523 17.26-41.662l107.712-107.712c22.279-22.247 61.046-22.263 83.325-.016l45.533-45.596c-46.587-46.54-127.819-46.555-174.422.047l-107.713 107.712c-23.302 23.301-36.14 54.28-36.14 87.226 0 68.032 55.335 123.366 123.366 123.366 32.946 0 63.925-12.839 87.227-36.14l94.792-94.792c-6.921.93-13.806 2.043-20.908 2.043-21.012.001-41.363-4.2-60.174-12.088z" />
             </svg>
           </a>
-          <a href="https://github.com/Funmi7/React-Todo.git" target="_blank">
+          <a
+            href="https://github.com/Funmi7/React-Todo.git"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg viewBox="0 0 128 128">
               <path
                 fill-rule="evenodd"
@@ -405,16 +448,19 @@ const Projects = () => {
           </a>
         </div>
         <div className="imgDiv">
-          <img alt="todo app"src={todo} />
+          <img alt="todo app" src={todo} />
         </div>
       </div>
-
 
       {/* Third Project */}
       <div className="projectContainer">
         <div className="textDiv">
           <h4>Featured Project</h4>
-          <a href="https://rick-and-morty.funmi.now.sh/" target="_blank">
+          <a
+            href="https://rick-and-morty.funmi.now.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>Rick and Morty</h3>
           </a>
           <div className="descriptionDiv">
@@ -427,7 +473,11 @@ const Projects = () => {
             <h4>React</h4>
             <h4>Styled components</h4>
           </div>
-          <a href="https://rick-and-morty.funmi.now.sh/" target="_blank">
+          <a
+            href="https://rick-and-morty.funmi.now.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               id="Capa_1"
               enable-background="new 0 0 515.556 515.556"
@@ -440,7 +490,11 @@ const Projects = () => {
               <path d="m224.303 374.578-59.274 59.274c-11.139 11.124-25.929 17.26-41.662 17.26-32.49 0-58.922-26.432-58.922-58.922 0-15.733 6.136-30.523 17.26-41.662l107.712-107.712c22.279-22.247 61.046-22.263 83.325-.016l45.533-45.596c-46.587-46.54-127.819-46.555-174.422.047l-107.713 107.712c-23.302 23.301-36.14 54.28-36.14 87.226 0 68.032 55.335 123.366 123.366 123.366 32.946 0 63.925-12.839 87.227-36.14l94.792-94.792c-6.921.93-13.806 2.043-20.908 2.043-21.012.001-41.363-4.2-60.174-12.088z" />
             </svg>
           </a>
-          <a href="https://github.com/Funmi7/rick-and-morty" target="_blank">
+          <a
+            href="https://github.com/Funmi7/rick-and-morty"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg viewBox="0 0 128 128">
               <path
                 fill-rule="evenodd"
@@ -452,7 +506,7 @@ const Projects = () => {
           </a>
         </div>
         <div className="imgDiv">
-          <img  alt="rickandmorty" src={rickMorty} />
+          <img alt="rickandmorty" src={rickMorty} />
         </div>
       </div>
 
@@ -460,7 +514,11 @@ const Projects = () => {
       <div className="projectContainer">
         <div className="textDiv">
           <h4>Featured Project</h4>
-          <a href="https://funmi7.github.io/vacation-planner/" target="_blank">
+          <a
+            href="https://funmi7.github.io/vacation-planner/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>Vacation Planner</h3>
           </a>
           <div className="descriptionDiv">
@@ -474,7 +532,11 @@ const Projects = () => {
             <h4>Css</h4>
             <h4>Less</h4>
           </div>
-          <a href="https://funmi7.github.io/vacation-planner/" target="_blank">
+          <a
+            href="https://funmi7.github.io/vacation-planner/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               id="Capa_1"
               enable-background="new 0 0 515.556 515.556"
@@ -487,7 +549,11 @@ const Projects = () => {
               <path d="m224.303 374.578-59.274 59.274c-11.139 11.124-25.929 17.26-41.662 17.26-32.49 0-58.922-26.432-58.922-58.922 0-15.733 6.136-30.523 17.26-41.662l107.712-107.712c22.279-22.247 61.046-22.263 83.325-.016l45.533-45.596c-46.587-46.54-127.819-46.555-174.422.047l-107.713 107.712c-23.302 23.301-36.14 54.28-36.14 87.226 0 68.032 55.335 123.366 123.366 123.366 32.946 0 63.925-12.839 87.227-36.14l94.792-94.792c-6.921.93-13.806 2.043-20.908 2.043-21.012.001-41.363-4.2-60.174-12.088z" />
             </svg>
           </a>
-          <a href="https://github.com/Funmi7/vacation-planner/" target="_blank">
+          <a
+            href="https://github.com/Funmi7/vacation-planner/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg viewBox="0 0 128 128">
               <path
                 fill-rule="evenodd"
@@ -499,7 +565,7 @@ const Projects = () => {
           </a>
         </div>
         <div className="imgDiv">
-          <img alt="vacation planner"src={vacationPlanner} />
+          <img alt="vacation planner" src={vacationPlanner} />
         </div>
       </div>
     </ProjectStyled>
