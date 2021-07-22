@@ -74,7 +74,7 @@ const ProjectStyled = styled.div`
       img {
         max-width: 100%;
         border-radius: 0.5rem;
-        box-shadow: -2px 0px 2px 1px #ffffff;
+        /* box-shadow: -2px 0px 2px 1px #ffffff; */
         height: auto;
       }
 
