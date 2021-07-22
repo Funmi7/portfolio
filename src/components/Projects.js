@@ -213,7 +213,7 @@ const Projects = () => {
         <div className="textDiv">
           <h4>Featured Project</h4>
           <a
-            href="https://pictures-eta.vercel.app"
+            href="https://credo.nugitech.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
