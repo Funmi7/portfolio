@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import devices from "../utils/devices";
 import myLogo from "../img/my-logo.png";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const NavStyled = styled.div`
   padding-left: 5%;
@@ -78,30 +79,30 @@ function Navigation() {
   return (
     <NavStyled>
       <div className="logoDiv">
-        <a href="#" className="linkStyle">
+        <AnchorLink href="#home" className="linkStyle">
           <img src={myLogo} />
-        </a>
+        </AnchorLink>
       </div>
       <div className="linkDiv">
         <div className="divStyle mobile">
-          <a href="#about-me" className="linkStyle">
+          <AnchorLink href="#about-me" className="linkStyle">
             About
-          </a>
+          </AnchorLink>
         </div>
         <div className="navLink mobile">
-          <a href="#skills" className="linkStyle">
+          <AnchorLink href="#skills" className="linkStyle">
             Skills
-          </a>
+          </AnchorLink>
         </div>
         <div className="navLink mobile">
-          <a href="#projects" className="linkStyle">
+          <AnchorLink href="#projects" className="linkStyle">
             Projects
-          </a>
+          </AnchorLink>
         </div>
         <div className="navLink">
-          <a href="#contact-me" className="linkStyle" to="/">
+          <AnchorLink href="#contact-me" className="linkStyle" to="/">
             Contact
-          </a>
+          </AnchorLink>
         </div>
       </div>
     </NavStyled>
