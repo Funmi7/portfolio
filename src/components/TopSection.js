@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Typical from "react-typical";
 import devices from "../utils/devices";
 
+
 const TopStyled = styled.div`
   display: flex;
   padding-top: 22rem;
@@ -146,7 +147,7 @@ const TopStyled = styled.div`
 
 const TopSection = () => {
   return (
-    <TopStyled>
+    <TopStyled id="home">
       <div className="left-section">
         <h3 className="hello">Hello, I'm</h3>
         <h1>Talabi Olufunmilayo</h1>

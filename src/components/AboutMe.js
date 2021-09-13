@@ -101,7 +101,7 @@ const AboutMe = () => {
       <div className="aboutMeContainer">
         <div className="imgDiv">
           <div className="imageWrapper">
-            <img src={profileImg} />
+            <img src={profileImg} alt="my profile" />
           </div>
         </div>
         <p>
