@@ -8,7 +8,7 @@ import pythonIcon from "../img/pythonIcon.svg";
 import reactIcon from "../img/reactIcon.svg";
 import gitIcon from "../img/gitIcon.svg";
 import devices from "../utils/devices";
-import Zoom from 'react-reveal/Zoom';
+import Zoom from "react-reveal/Zoom";
 
 const SkillStyled = styled.div`
   height: 100vh;
@@ -65,41 +65,42 @@ const SkillStyled = styled.div`
   }
 `;
 
+const skillsA = [
+  { icon: html5Icon, altText: "html5 icon" },
+  { icon: css3Icon, altText: "css3 icon" },
+  { icon: jsIcon, altText: "javascript icon" },
+  { icon: reactIcon, altText: "react icon" },
+];
+const skillsB = [
+  { icon: nodeIcon, altText: "node icon" },
+  { icon: pythonIcon, altText: "python icon" },
+  { icon: gitIcon, altText: "git icon" },
+];
+
 const Skills = () => {
   return (
     <Zoom>
-    <SkillStyled id="skills">
-      <h1>
-        <div className="lineStyle"></div>
-        My Skillsets
-        <div className="lineStyle"></div>
-      </h1>
-      <div className="firstSet">
-        <div className="iconDiv">
-          <img src={html5Icon} />
+      <SkillStyled id="skills">
+        <h1>
+          <div className="lineStyle"></div>
+          My Skillsets
+          <div className="lineStyle"></div>
+        </h1>
+        <div className="firstSet">
+          {skillsA.map(({ icon, altText }) => (
+            <div className="iconDiv">
+              <img src={icon} alt={altText} />
+            </div>
+          ))}
         </div>
-        <div className="iconDiv">
-          <img src={css3Icon} />
+        <div className="secondSet">
+          {skillsB.map(({ icon, altText }) => (
+            <div className="iconDiv">
+              <img src={icon} alt={altText} />
+            </div>
+          ))}
         </div>
-        <div className="iconDiv">
-          <img src={jsIcon} />
-        </div>
-        <div className="iconDiv">
-          <img src={reactIcon} />
-        </div>
-      </div>
-      <div className="secondSet">
-        <div className="iconDiv">
-          <img src={nodeIcon} alt='node icon' />
-        </div>
-        <div className="iconDiv">
-          <img src={pythonIcon} />
-        </div>
-        <div className="iconDiv">
-          <img src={gitIcon} />
-        </div>
-      </div>
-    </SkillStyled>
+      </SkillStyled>
     </Zoom>
   );
 };

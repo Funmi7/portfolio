@@ -279,7 +279,7 @@ const Projects = () => {
         Projects I've Built
         <div className="lineStyle"></div>
       </h1>
-      <div>
+      <>
         {projects.map(
           ({
             title,
@@ -334,7 +334,7 @@ const Projects = () => {
             </div>
           )
         )}
-      </div>
+      </>
     </ProjectStyled>
   );
 };
