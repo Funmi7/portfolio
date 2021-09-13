@@ -7,7 +7,7 @@ import crpytoTracker from "../img/crypto.PNG";
 import gallery from "../img/gallery.PNG";
 import todo from "../img/todo-app.PNG";
 import devices from "../utils/devices";
-import credoImg from "../img/credo-img.png"
+import credoImg from "../img/credo-img.png";
 
 const ProjectStyled = styled.div`
   height: 100vh;
@@ -198,6 +198,33 @@ const ProjectStyled = styled.div`
     }
   }
 `;
+
+const projects = [
+  {
+    title: "Credo",
+    description:
+      "Credo is a fintech application that is in development which helps to run businesses as smoothly as possible. Credo helps with selling of your products, payments and posting directly to you social media accounts.",
+    languages: ["React", "Redux", "Node", "Styled Components", "Bootstrap"],
+    webLink: "https://credo.nugitech.com/",
+    githubLink: "https://github.com/nugitech/credo-frontend",
+  },
+  {
+    title: "PictureGallery",
+    description:
+      "Picture gallery is a web application that allows you upload random pictures on the web for you and others to see. Users have to signup/login to use the feature",
+    languages: ["React", "Redux", "Node", "Express", "MongoDb"],
+    webLink: "https://pictures-eta.vercel.app",
+    githubLink: "https://github.com/Funmi7/work-in",
+  },
+  {
+    title: "PictureGallery",
+    description:
+      "Picture gallery is a web application that allows you upload random pictures on the web for you and others to see. Users have to signup/login to use the feature",
+    languages: ["React", "Redux", "Node", "Express", "MongoDb"],
+    webLink: "https://pictures-eta.vercel.app",
+    githubLink: "https://github.com/Funmi7/work-in",
+  },
+];
 
 const Projects = () => {
   return (

@@ -80,7 +80,7 @@ function Navigation() {
     <NavStyled>
       <div className="logoDiv">
         <AnchorLink href="#home" className="linkStyle">
-          <img src={myLogo} />
+          <img src={myLogo} alt="my logo"/>
         </AnchorLink>
       </div>
       <div className="linkDiv">

@@ -8,6 +8,7 @@ import pythonIcon from "../img/pythonIcon.svg";
 import reactIcon from "../img/reactIcon.svg";
 import gitIcon from "../img/gitIcon.svg";
 import devices from "../utils/devices";
+import Zoom from 'react-reveal/Zoom';
 
 const SkillStyled = styled.div`
   height: 100vh;
@@ -66,6 +67,7 @@ const SkillStyled = styled.div`
 
 const Skills = () => {
   return (
+    <Zoom>
     <SkillStyled id="skills">
       <h1>
         <div className="lineStyle"></div>
@@ -98,6 +100,7 @@ const Skills = () => {
         </div>
       </div>
     </SkillStyled>
+    </Zoom>
   );
 };
 
