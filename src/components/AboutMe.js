@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import styled from "styled-components";
 import profileImg from "../img/funmi.jpg";
 import devices from "../utils/devices";
@@ -92,34 +93,37 @@ const AboutMeStyled = styled.div`
 
 const AboutMe = () => {
   return (
-    <AboutMeStyled id="about-me">
-      <h1>
-        <div className="lineStyle"></div>
-        About Me
-        <div className="lineStyle"></div>
-      </h1>
-      <div className="aboutMeContainer">
-        <div className="imgDiv">
-          <div className="imageWrapper">
-            <img src={profileImg} alt="my profile" />
+    <Fade top>
+      <AboutMeStyled id="about-me">
+        <h1>
+          <div className="lineStyle"></div>
+          About Me
+          <div className="lineStyle"></div>
+        </h1>
+        <div className="aboutMeContainer">
+          <div className="imgDiv">
+            <div className="imageWrapper">
+              <img src={profileImg} alt="my profile" />
+            </div>
           </div>
+          <p>
+            Hi! I am Funmi, a passionate and dedicated Software Engineer from
+            Nigeria who enjoys building web applications.
+            <br></br>
+            <br></br>
+            Through my experience at Lambda School, I've acquired the skills and
+            knowledge of modern web technologies needed for developing websites
+            that look good, feel fantastic and function optimally with efficient
+            and modern backend.
+            <br></br>
+            <br></br>
+            When I am not programming, I am most likely reading a novel,
+            listening to pop music, seeing a movie, sight seeing or hanging out
+            with friends and family.
+          </p>
         </div>
-        <p>
-          Hi! I am Funmi, a passionate and dedicated Software Engineer from
-          Nigeria who enjoys building web applications.
-          <br></br>
-          <br></br>
-          Through my experience at Lambda School, I've acquired the skills and
-          knowledge of modern web technologies needed for developing websites
-          that look good, feel fantastic and function optimally with
-          efficient and modern backend.
-          <br></br>
-          <br></br>
-          When I am not programming, I am most likely reading a novel, listening to pop music, seeing a
-          movie, sight seeing or hanging out with friends and family.
-        </p>
-      </div>
-    </AboutMeStyled>
+      </AboutMeStyled>
+    </Fade>
   );
 };
 
