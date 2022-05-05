@@ -6,10 +6,11 @@ import devices from "../utils/devices";
 
 const TopStyled = styled.div`
   display: flex;
-  padding-top: 22rem;
+  /* padding-top: 22rem; */
   height: 100vh;
   text-align: left;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
