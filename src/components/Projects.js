@@ -1,16 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import devCoach from "../img/dev-coach.png";
-import rickMorty from "../img/rickandmorty.PNG";
-// import vacationPlanner from "../img/vacation-planner.PNG";
+import rickMorty from "../img/rick-morty.png";
 import crpytoTracker from "../img/crypto.PNG";
-import gallery from "../img/gallery.PNG";
 import todo from "../img/todo-app.PNG";
 import devices from "../utils/devices";
 import credoImg from "../img/credo-img.png";
 
 const ProjectStyled = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 15rem;
 
   @media ${devices.large} {
@@ -74,7 +71,6 @@ const ProjectStyled = styled.div`
       img {
         max-width: 100%;
         border-radius: 0.5rem;
-        /* box-shadow: -2px 0px 2px 1px #ffffff; */
         height: auto;
       }
 
@@ -211,33 +207,14 @@ const projects = [
     altText: "Credo project screenshot",
   },
   {
-    title: "PictureGallery",
+    title: "Rick and Morty",
     description:
-      "Picture gallery is a web application that allows you upload random pictures on the web for you and others to see. Users have to signup/login to use the feature",
-    languages: ["React", "Redux", "Node", "Express", "MongoDb"],
-    webLink: "https://pictures-eta.vercel.app",
-    githubLink: "https://github.com/Funmi7/work-in",
-    image: gallery,
-    altText: "pictureGallery project screenshot",
-  },
-  {
-    title: "DevCoach",
-    description:
-      "DevCoach is a web application that helps developers practice interviews with experienced coaches. Includes sign up/ Login for both students or coaches, list of coaches, dashboard for schedule appointments, and visualisation for feedbacks. Also includes video chat, chat and code editor.",
-    languages: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "postgresql",
-      "Material UI",
-      "Ant Design",
-      "Styled Components",
-    ],
-    webLink: "https://www.dev-coach.com/",
-    githubLink: "https://github.com/LABS-EU3/quality_hub_frontend/",
-    image: devCoach,
-    altText: "devCoach project screenshot",
+      "Rick and Morty is a fan page that fetches the characters of Rick and Morty from an api and renders it.",
+    languages: ["React", "CSS", "styled components"],
+    webLink: "https://rick-and-morty.funmi.now.sh/",
+    githubLink: "https://github.com/Funmi7/rick-and-morty",
+    image: rickMorty,
+    altText: "Rick andMorty project screenshot",
   },
   {
     title: "Crypto Tracker",
@@ -258,16 +235,6 @@ const projects = [
     githubLink: "https://github.com/Funmi7/React-Todo.git",
     image: todo,
     altText: "todo project screenshot",
-  },
-  {
-    title: "Rick and Morty",
-    description:
-      "Rick and Morty is a fan page that fetches the characters of Rick and Morty from an api and renders it.",
-    languages: ["React", "CSS", "styled components"],
-    webLink: "https://rick-and-morty.funmi.now.sh/",
-    githubLink: "https://github.com/Funmi7/rick-and-morty",
-    image: rickMorty,
-    altText: "Rick andMorty project screenshot",
   },
 ];
 
