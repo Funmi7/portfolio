@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import rickMorty from "../img/rickandmorty.png";
+import rickMorty from "../img/rick-morty.png";
 import crpytoTracker from "../img/crypto.PNG";
 import todo from "../img/todo-app.PNG";
 import devices from "../utils/devices";
