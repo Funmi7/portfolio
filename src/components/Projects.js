@@ -211,7 +211,7 @@ const projects = [
     description:
       "Rick and Morty is a fan page that fetches the characters of Rick and Morty from an api and renders it.",
     languages: ["React", "CSS", "styled components"],
-    webLink: "https://rick-and-morty.funmi.now.sh/",
+    webLink: "https://rick-and-morty-cemji3wgr-funmi.vercel.app/",
     githubLink: "https://github.com/Funmi7/rick-and-morty",
     image: rickMorty,
     altText: "Rick andMorty project screenshot",
