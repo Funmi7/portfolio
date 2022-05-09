@@ -7,4 +7,4 @@ In the project directory, you can run:
 ### `npm start`
 
 
-Link to live website https://portfolio-2zn7keqvj-funmi.vercel.app/
+Link to live website https://portfolio-8knpkph9w-funmi.vercel.app/
