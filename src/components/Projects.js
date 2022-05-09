@@ -197,6 +197,16 @@ const ProjectStyled = styled.div`
 
 const projects = [
   {
+    title: "Rick and Morty",
+    description:
+      "Rick and Morty is a fan page that fetches the characters of Rick and Morty from an api and renders it.",
+    languages: ["React", "CSS", "styled components"],
+    webLink: "https://rick-and-morty-cemji3wgr-funmi.vercel.app/",
+    githubLink: "https://github.com/Funmi7/rick-and-morty",
+    image: rickMorty,
+    altText: "Rick andMorty project screenshot",
+  },
+  {
     title: "Credo",
     description:
       "Credo is a fintech application that is in development which helps to run businesses as smoothly as possible. Credo helps with selling of your products, payments and posting directly to you social media accounts.",
@@ -205,16 +215,6 @@ const projects = [
     githubLink: "https://github.com/nugitech/credo-frontend",
     image: credoImg,
     altText: "Credo project screenshot",
-  },
-  {
-    title: "Rick and Morty",
-    description:
-      "Rick and Morty is a fan page that fetches the characters of Rick and Morty from an api and renders it.",
-    languages: ["React", "CSS", "styled components"],
-    webLink: "https://rick-and-morty.funmi.now.sh/",
-    githubLink: "https://github.com/Funmi7/rick-and-morty",
-    image: rickMorty,
-    altText: "Rick andMorty project screenshot",
   },
   {
     title: "Crypto Tracker",
