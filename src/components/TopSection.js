@@ -4,7 +4,6 @@ import Typical from "react-typical";
 import devices from "../utils/devices";
 import Fade from "react-reveal/Fade";
 
-
 const TopStyled = styled.div`
   display: flex;
   /* padding-top: 22rem; */
@@ -159,17 +158,17 @@ const TopSection = () => {
               loop={10}
               wrapper="h3"
               steps={[
-                "A creative Full Stack Web Developer",
+                "A Detail-oriented Software Engineer",
                 1000,
-                "A passionate Full Stack Web Developer",
+                "A passionate Frontend Engineer",
                 1000,
-                "A creative and passionate Full Stack Web Developer",
+                "A creative and passionate Web Developer",
                 1000,
               ]}
             />
           </div>
           <a
-            href="https://drive.google.com/file/d/1CwTtedVg_eVNCirQG5BmnH83XQv6avxG/view?usp=sharing"
+            href="https://drive.google.com/file/d/1j3PRqXNPjSyohamW4H3DWPaaM5UvVZke/view?usp=sharing"
             target="_blank rel=noopener noreferrer"
           >
             <button>Download Resume</button>
@@ -227,27 +226,6 @@ const TopSection = () => {
             </a>
           </div>
         </div>
-        {/* <div className="right-section">
-        <div className="textDiv">
-          <pre>
-            1 class
-            <b> Person </b>
-            <span>{"{"}</span>
-          </pre>
-          <pre>
-            2 constructor()
-            <span>{" {"}</span>
-          </pre>
-          <pre>4 this.name = "Talabi Olufunmilayo";</pre>
-          <pre>5 this.traits = ["frontendDev", "backendDev"];</pre>
-          <pre>
-            6 <span>{"}"}</span>
-          </pre>
-          <pre>
-            7 <span>{"}"}</span>
-          </pre>
-        </div>
-      </div> */}
       </TopStyled>
     </Fade>
   );

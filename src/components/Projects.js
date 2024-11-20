@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+
 import rickMorty from "../img/rick-morty.png";
 import crpytoTracker from "../img/crypto.PNG";
-import todo from "../img/todo-app.PNG";
+import taskMgt from "../img/task-mgt.png";
 import devices from "../utils/devices";
 import credoImg from "../img/credo-img.png";
 
@@ -197,6 +198,16 @@ const ProjectStyled = styled.div`
 
 const projects = [
   {
+    title: "Credo",
+    description:
+      "Credo is a fintech application that is in development which helps to run businesses as smoothly as possible. Credo helps with selling of your products, payments and posting directly to you social media accounts.",
+    languages: ["React", "Redux", "Node", "Styled Components", "Bootstrap"],
+    webLink: "https://credocentral.com/",
+    githubLink: "https://github.com/nugitech/credo-frontend",
+    image: credoImg,
+    altText: "Credo project screenshot",
+  },
+  {
     title: "Rick and Morty",
     description:
       "Rick and Morty is a fan page that fetches the characters of Rick and Morty from an api and renders it.",
@@ -205,16 +216,6 @@ const projects = [
     githubLink: "https://github.com/Funmi7/rick-and-morty",
     image: rickMorty,
     altText: "Rick andMorty project screenshot",
-  },
-  {
-    title: "Credo",
-    description:
-      "Credo is a fintech application that is in development which helps to run businesses as smoothly as possible. Credo helps with selling of your products, payments and posting directly to you social media accounts.",
-    languages: ["React", "Redux", "Node", "Styled Components", "Bootstrap"],
-    webLink: "https://credo.nugitech.com/",
-    githubLink: "https://github.com/nugitech/credo-frontend",
-    image: credoImg,
-    altText: "Credo project screenshot",
   },
   {
     title: "Crypto Tracker",
@@ -227,14 +228,14 @@ const projects = [
     altText: "crypto project screenshot",
   },
   {
-    title: "Todo-app",
+    title: "Task Manager",
     description:
-      "Todo-app is a simple web application where you can input to do tasks and mark when completed",
-    languages: ["React", "CSS", "styled components"],
-    webLink: "https://react-todo-delta-six.vercel.app/",
-    githubLink: "https://github.com/Funmi7/React-Todo.git",
-    image: todo,
-    altText: "todo project screenshot",
+      "Task Manager is a simple web application where you can add tasks, edit tasks and drag and drop them to different sections",
+    languages: ["Nextjs", "Tailwind", "Typescript"],
+    webLink: "https://task-mgt-phi.vercel.app/",
+    githubLink: "https://github.com/Funmi7/Frontend-Test",
+    image: taskMgt,
+    altText: "Task manager screenshot",
   },
 ];
 

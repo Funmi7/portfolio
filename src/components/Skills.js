@@ -1,14 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+import Zoom from "react-reveal/Zoom";
+
 import html5Icon from "../img/htmlIcon.svg";
 import css3Icon from "../img/cssIcon.svg";
 import jsIcon from "../img/jsIcon.svg";
 import nodeIcon from "../img/nodejsIcon.svg";
-import pythonIcon from "../img/pythonIcon.svg";
+import typescriptIcon from "../img/typescript.svg";
 import reactIcon from "../img/reactIcon.svg";
+import nextIcon from "../img/nextIcon.svg";
 import gitIcon from "../img/gitIcon.svg";
 import devices from "../utils/devices";
-import Zoom from "react-reveal/Zoom";
 
 const SkillStyled = styled.div`
   height: 100vh;
@@ -72,8 +74,8 @@ const skillsA = [
   { icon: reactIcon, altText: "react icon" },
 ];
 const skillsB = [
-  { icon: nodeIcon, altText: "node icon" },
-  { icon: pythonIcon, altText: "python icon" },
+  { icon: typescriptIcon, altText: "typescript icon" },
+  { icon: nextIcon, altText: "nextjs icon" },
   { icon: gitIcon, altText: "git icon" },
 ];
 
