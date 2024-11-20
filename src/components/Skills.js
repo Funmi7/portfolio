@@ -5,7 +5,6 @@ import Zoom from "react-reveal/Zoom";
 import html5Icon from "../img/htmlIcon.svg";
 import css3Icon from "../img/cssIcon.svg";
 import jsIcon from "../img/jsIcon.svg";
-import nodeIcon from "../img/nodejsIcon.svg";
 import typescriptIcon from "../img/typescript.svg";
 import reactIcon from "../img/reactIcon.svg";
 import nextIcon from "../img/nextIcon.svg";
