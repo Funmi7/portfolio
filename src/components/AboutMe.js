@@ -4,7 +4,6 @@ import profileImg from "../img/funmi.jpg";
 import devices from "../utils/devices";
 import Slide from "react-reveal/Slide";
 
-
 const AboutMeStyled = styled.div`
   padding-top: 10rem;
   height: 100vh;
@@ -58,7 +57,6 @@ const AboutMeStyled = styled.div`
       overflow: hidden;
       margin: 0px;
 
-
       img {
         max-width: 100%;
         max-height: 100%;
@@ -75,7 +73,6 @@ const AboutMeStyled = styled.div`
       @media ${devices.mobile} {
         height: 45rem;
       }
-     
     }
     p {
       width: 50%;
@@ -110,11 +107,11 @@ const AboutMe = () => {
             Hi! I am Funmi, a passionate and dedicated Software Engineer from
             Nigeria who enjoys building web applications.
             <br></br>
-            <br></br>
-            Through my experience at Lambda School, I've acquired the skills and
-            knowledge of modern web technologies needed for developing websites
-            that look good, feel fantastic and function optimally with efficient
-            and modern backend.
+            <br></br>I have a passion for crafting intuitive and user-friendly
+            web applications. I specialize in building responsive and accessible
+            interfaces that enhance user experiences. I thrive in collaborative
+            environments and enjoy solving complex challenges with innovative
+            solutions.
             <br></br>
             <br></br>
             When I am not programming, I am most likely reading a novel,
