@@ -167,12 +167,12 @@ const TopSection = () => {
               ]}
             />
           </div>
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1j3PRqXNPjSyohamW4H3DWPaaM5UvVZke/view?usp=sharing"
             target="_blank rel=noopener noreferrer"
           >
             <button>Download Resume</button>
-          </a>
+          </a> */}
           <div>
             <a href="mailto:talabifunmilayo@gmail.com">
               <svg
